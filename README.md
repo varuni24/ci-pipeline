@@ -1,4 +1,4 @@
-# ci-pipeline 
+# ci-pipeline
 
 We use GitHub Actions for the CI. The workflow is a single job named `build`. It checks out the repository, sets up the environment, then runs the three main steps lint, test, buildn so everything runs inside GitHub.
 
