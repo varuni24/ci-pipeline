@@ -2,7 +2,7 @@
 
 We use GitHub Actions for the CI. The workflow is a single job named `build`. It checks out the repository, sets up the environment, then runs the three main steps lint, test, buildn so everything runs inside GitHub.
 
-
+ 
 
 ### 1. Code linting
 - **flake8** This step fails the pipeline if Flake8 reports any style or syntax issues such as unused imports. It catches simple errors before they reach review.
